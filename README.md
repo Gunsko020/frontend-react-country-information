@@ -143,4 +143,4 @@ kun je onderstaand stappenplan gebruiken:
 14. Zorg ervoor dat als er naar een land wordt gezocht dat niet bestaat, er een foutmelding in de state wordt opgeslagen
     en wordt weergegeven op de pagina: `[ingevoerd land] bestaat niet. Probeer het opnieuw` _Tip_: als er een ongeldige
     API-call wordt gemaakt, zal de response in het catch blok terecht komen.
-15. Zorg er ook voor dat wanneer er daarna een geldig verzoek wordt gedaan, de foutmelding weer verdwenen is.
+15. Zorg er ook voor dat wanneer er daarna een geldig verzoek wordt gedaan, de foutmelding weer verdwenen is.# frontend-react-country-information
