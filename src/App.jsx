@@ -2,10 +2,13 @@ import './App.css';
 import axios from "axios";
 import {useState} from "react";
 import worldmap from "./assets/world_map.png"
+import colorhelper from "./helpers/colorhelper.jsx"
+
 
 function App() {
 
     const [information,setInformation] = useState([])
+    const [regionClass,getRegionClass] = useState("")
 
     async function fetchCountries() {
         try{
@@ -34,14 +37,14 @@ function App() {
             >
                 Haal alle landen op
             </button>
-                {/*{console.log(information[0].flags.png)}*/}
+                {/*{console.log(information[0].region)}*/}
 
 
             <ul>
                 {information.map((info)=>{
                     return <>
                         <img src={info.flags.png}/>
-                        <li>{info.name.common}</li>
+                        <li className={colorhelper(info.region)}>{info.name.common}</li>
                         <p>{`has a population of ${info.population} people`}</p>
                 </>
                 })}

@@ -8,3 +8,28 @@
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
+.blue {
+    color: #5575C1;
+}
+
+.green {
+    color: #4C834B;
+}
+
+.red {
+    color: #D24E5B;
+}
+
+.yellow {
+    color: #FFD435;
+}
+
+.purple {
+    color: #A653BA;
+}
+
+.default {
+    color: grey;
+}
